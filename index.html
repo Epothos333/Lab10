@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- Main Page - About Page - Portfolio Page - Resume page - Navigation - Bonus to incude elemnts not specifically outlind -->
+	<html>
+		<head>
+			<link href="ayye.css" type="text/css" rel="stylesheet" />
+			<script src="temp.js"> </script>
+			<title> Temperature</title>
+		</head>
+		<body>
+			<h1 id="Title Headline"> Temperature Converter </h1>
+
+	<form id="tempConv">
+		<p> Temperature: <input type="number" id="Temp"> </p>
+		<p class="bag"> F >>> C:<input type="radio" name="conversion" value="C" checked="checked"id="ForC"> </p>
+		<p class="bag"> C >>> F:<input type="radio" name="conversion" value="F" id="ForC"> </p>
+		<input type="submit" value="Convert" onclick="return convertTemp()">
+		<div id="display"></div>
+	</form>
+	
+
+		</body>
+	</html>

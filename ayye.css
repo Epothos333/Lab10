@@ -1,0 +1,24 @@
+h1 {
+  color: #00f;
+  margin-top: 50px;
+}
+p {
+  color: #00f;
+}
+#pfront,
+#tempConv,
+h1 {
+  text-align: center;
+}
+li {
+  display: inline;
+}
+#tempConv {
+  border-radius: 15px;
+  border: 3px solid #00f;
+  width: 200px;
+  margin: auto;
+}
+body {
+  background-color: #8080ff;
+}
